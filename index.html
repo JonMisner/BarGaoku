@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Gaoku</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img
+                src="assets/GaokuLogo-removebg.png"
+                alt="logo"
+                class="nav__logo-dark"
+              />
+              <img
+                src="assets/Gaokulogo2_Transp.gif"
+                alt="logo"
+                class="nav__logo-white"
+              />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <!--<li><a href="#special">SPECIAL</a></li>-->
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#event">HAPPY HOUR</a></li>
+          <li><a href="#contact">RESERVATIONS</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/Hamachi.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h1>IZAKAYA<br /><span>& Craft Cocktails</span></h1>
+          <h2>Sun, Mon, Wed, Thurs: 5pm - 10pm <br/>Fri, Sat: 5pm - 10:30pm</h2>
+        </div>
+      </div>
+    </header>
+<!--
+    <section class="section__container banner__container" id="special">
+      <div class="banner__card">
+        <p>TRY IT OUT TODAY</p>
+        <h4>MOST POPULAR BURGER</h4>
+      </div>
+      <div class="banner__card">
+        <p>TRY IT OUT TODAY</p>
+        <h4>MORE FUN<br />MORE TASTE</h4>
+      </div>
+      <div class="banner__card">
+        <p>TRY IT OUT TODAY</p>
+        <h4>FRESH & CHILI</h4>
+      </div>
+    </section>
+  -->
+    <section class="section__container order__container" id="menu">
+      <h3>MENUS</h3>
+      <h2 class="section__header">Fresh Food & Cold Drinks</h2>
+      <!--<p class="section__description">
+        Whether you crave classic flavors or daring combinations, this is where
+        your culinary journey begins. Indulge your cravings and savor every bite
+        as you create your personalized burger experience with Burger Company.
+      </p>-->
+      <div class="order__grid">
+        <div class="order__card">
+          <a href="https://docs.google.com/document/d/1JwZQtBT1qGZakSmST_NewHfzGRW6jbYVjEg_SrVjVJ4/pub" target="_blank">
+            <img src="assets/Hotate2.png" alt="order" />
+            <h4>Dinner</h4>
+          </a>
+          <!--<p>
+            Sink your teeth into the timeless perfection of our Chicken Burger,
+            an experience that never goes out of style.
+          </p>
+          <button class="btn">Take A Look</button>-->
+        </div>
+        <div class="order__card">
+          <a href="https://docs.google.com/document/d/1JwZQtBT1qGZakSmST_NewHfzGRW6jbYVjEg_SrVjVJ4/pub" target="_blank">
+            <img src="assets/Cocktail.png" alt="order" />
+            <h4>Drinks</h4>
+          </a>
+          <!--<p>
+            Embrace the vibrant flavors of our Veggie Delight Burger, a
+            celebration of freshness and wholesome goodness.
+          </p>
+          <button class="btn">Take A Look</button>-->
+        </div>
+        <div class="order__card">
+          <a href="https://docs.google.com/document/d/1JwZQtBT1qGZakSmST_NewHfzGRW6jbYVjEg_SrVjVJ4/pub" target="_blank">
+            <img src="assets/Salmon.png" alt="order" />
+            <h4>Specials</h4>
+          </a>
+          <!--<p>
+            Indulge in a symphony of smoky, savory flavors with our BBQ Bacon
+            Burger, grilled and topped with crispy bacon.
+          </p>
+          <button class="btn">Take A Look</button>-->
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container event__container" id="event">
+      <div class="event__content">
+        <div class="event__image">
+          <img src="assets/Handroll1.png" alt="event" />
+        </div>
+        <div class="event__details">
+          <h2 class="section__header">Happy Hour</h2>
+          <p class="section__description">
+            Monday - Thursday | 5pm - 7pm <br/>
+            $5 Bottled Beer | $7 Handrolls
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="reservation" id="contact">
+      <div class="section__container reservation__container">
+        <h3>RESERVATION</h3>
+        <h2 class="section__header">BOOK YOUR TABLE</h2>
+        <form action="/">
+          <input type="text" placeholder="NAME" />
+          <input type="email" placeholder="EMAIL" />
+          <input type="date" placeholder="DATE" />
+          <input type="time" placeholder="TIME" />
+          <input type="number" placeholder="PEOPLE" />
+          <button class="btn" type="submit">FIND TABLE</button>
+        </form>
+      </div>
+     <!--<img
+        src="assets/reservation-bg-1.png"
+        alt="reservation"
+        class="reservation__bg-1"
+      />
+      <img
+        src="assets/reservation-bg-2.png"
+        alt="reservation"
+        class="reservation__bg-2"
+      />-->
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__logo">
+          <img src="assets/Gaokulogo2_Transp.gif" alt="logo" />
+        </div>
+        <div class="footer__content">
+          <p>
+            Gaoku Izakaya & Craft Cocktails uses a blend of Japanese and Thai influences to create a unique culinary experince, creative drinks, and a friendly atmosphere. Serving the Huboldt Park Neigborhood since 2023.
+          </p>
+          <div>
+            <ul class="footer__links">
+              <li>
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                2759 W Augusta Blvd, Chicago, IL 60622
+              </li>
+              <li>
+                <span><i class="ri-mail-fill"></i></span>
+                BarGaoku.com
+              </li>
+            </ul>
+            <div class="footer__socials">
+              <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+              <a href="#"><i class="ri-whatsapp-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
