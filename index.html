@@ -9,6 +9,15 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <title>Gaoku</title>
+    <script>
+      !function(t,o,c,k){if(!t.tock){var e=t.tock=function(){e.callMethod?
+      e.callMethod.apply(e,arguments):e.queue.push(arguments)};t._tock||(t._tock=e),
+      e.push=e,e.loaded=!0,e.version='1.0',e.queue=[];var f=o.createElement(c);f.async=!0,
+      f.src=k;var g=o.getElementsByTagName(c)[0];g.parentNode.insertBefore(f,g)}}(
+      window,document,'script','https://www.exploretock.com/tock.js');
+  
+      tock('init', 'gaoku-chicago');
+      </script>
   </head>
   <body>
     <header class="header">
@@ -20,6 +29,7 @@
                 src="assets/GaokuLogo-removebg.png"
                 alt="logo"
                 class="nav__logo-dark"
+                id="main_logo"
               />
               <img
                 src="assets/Gaokulogo2_Transp.gif"
@@ -34,10 +44,10 @@
         </div>
         <ul class="nav__links" id="nav-links">
           <li><a href="#home">HOME</a></li>
-          <!--<li><a href="#special">SPECIAL</a></li>-->
           <li><a href="#menu">MENU</a></li>
           <li><a href="#event">HAPPY HOUR</a></li>
           <li><a href="#contact">RESERVATIONS</a></li>
+           <li class="invisible"></li>
         </ul>
       </nav>
       <div class="section__container header__container" id="home">
@@ -67,7 +77,7 @@
     </section>
   -->
     <section class="section__container order__container" id="menu">
-      <h3>MENUS</h3>
+      <!--<h3>MENUS</h3>-->
       <h2 class="section__header">Fresh Food & Cold Drinks</h2>
       <!--<p class="section__description">
         Whether you crave classic flavors or daring combinations, this is where
@@ -128,16 +138,10 @@
 
     <section class="reservation" id="contact">
       <div class="section__container reservation__container">
-        <h3>RESERVATION</h3>
+        <h3>RESERVATIONS</h3>
         <h2 class="section__header">BOOK YOUR TABLE</h2>
-        <form action="/">
-          <input type="text" placeholder="NAME" />
-          <input type="email" placeholder="EMAIL" />
-          <input type="date" placeholder="DATE" />
-          <input type="time" placeholder="TIME" />
-          <input type="number" placeholder="PEOPLE" />
-          <button class="btn" type="submit">FIND TABLE</button>
-        </form>
+        <div><br/></div>
+        <div id="Tock_widget_container" data-tock-display-mode="Inline" data-tock-color-mode="Blue" data-tock-locale="en-us" data-tock-timezone="America/Chicago" data-tock-offering="427048"></div>
       </div>
      <!--<img
         src="assets/reservation-bg-1.png"
@@ -172,8 +176,8 @@
               </li>
             </ul>
             <div class="footer__socials">
-              <a href="#"><i class="ri-facebook-circle-fill"></i></a>
-              <a href="#"><i class="ri-instagram-fill"></i></a>
+              <a href="https://www.facebook.com/p/Gaoku-Izakaya-61554777643029/"><i class="ri-facebook-circle-fill"></i></a>
+              <a href="https://www.instagram.com/bar.gaoku/?hl=en"><i class="ri-instagram-fill"></i></a>
               <a href="#"><i class="ri-twitter-fill"></i></a>
               <a href="#"><i class="ri-whatsapp-fill"></i></a>
             </div>
