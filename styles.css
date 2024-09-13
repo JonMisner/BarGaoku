@@ -259,6 +259,11 @@ nav {
   border-radius: 1rem;
   text-align: center;
   transition: 0.3s;
+  background-image: url("assets/whitePaperBG.avif");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 .order__card:hover {
@@ -290,8 +295,14 @@ nav {
   display: grid;
   gap: 2rem;
   padding: 1rem;
+  padding-left: 2em;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
   /*background-image: url("assets/gray-texture.jpg");*/
+  background-image: url("assets/whitePaperBG.avif");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 .event__details {
